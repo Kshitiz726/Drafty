@@ -537,7 +537,7 @@ private fun AutoReplyPanel() {
             .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(16.dp)).padding(14.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text("Auto reply", fontWeight = FontWeight.SemiBold)
+        Text("How to reply", fontWeight = FontWeight.SemiBold, maxLines = 1, modifier = Modifier.fillMaxWidth())
         Segmented(listOf("me" to "As me", "away" to "I'm away", "fixed" to "Fixed text"), mode) { mode = it; Prefs.arMode = it }
         Text(
             when (mode) {
