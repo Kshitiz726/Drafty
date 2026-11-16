@@ -19,6 +19,23 @@
   </a>
 </p>
 
+## See it work
+
+A real run on Android with Gemini: a friend asks about dinner, one tap on the Drafty button writes the reply in the box, matching how I text, and it's sent.
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/1-chat.png" width="230" alt="Incoming message in a chat"><br><sub><b>1.</b> A new message arrives</sub></td>
+    <td align="center"><img src="docs/screenshots/2-drafted.png" width="230" alt="Drafty wrote the reply into the text box"><br><sub><b>2.</b> One tap: the reply is written in the box</sub></td>
+    <td align="center"><img src="docs/screenshots/3-sent.png" width="230" alt="Reply sent"><br><sub><b>3.</b> Sent, in my own style</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/4-menu.png" width="230" alt="Long-press menu"><br><sub><b>4.</b> Long-press for every tool</sub></td>
+    <td align="center"><img src="docs/screenshots/5-home.png" width="230" alt="Drafty home screen"><br><sub><b>5.</b> Home</sub></td>
+    <td align="center"><img src="docs/screenshots/6-settings.png" width="230" alt="Drafty settings"><br><sub><b>6.</b> Settings</sub></td>
+  </tr>
+</table>
+
 ## Download
 
 - **Android:** tap the **Download Android APK** button above on your phone, open the file and allow installs from your browser if asked. Android 8 or newer.
