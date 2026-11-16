@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.Drafty" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/panel_bg</item>
+    </style>
+    <style name="Theme.Drafty.Overlay" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">@color/accent_soft</item>
+    </style>
+</resources>

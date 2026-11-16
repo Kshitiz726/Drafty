@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Drafty</string>
+    <string name="share_label">Ask Drafty</string>
+    <string name="service_label">Drafty reply assistant</string>
+    <string name="service_summary">Reply drafts in any app, and summaries of any screen</string>
+    <string name="service_description">Drafty adds one floating button. Tap it in a chat or comment box to write a reply with the AI you connected. Long-press it for all options: refine, catch up, summarize, translate and comment tools. Screen text is read only when you use Drafty, or when you turn on Draft automatically, and goes only to your chosen AI. Replies are sent only if you turn on Send automatically.</string>
+    <string name="autoreply_label">Drafty auto reply</string>
+</resources>

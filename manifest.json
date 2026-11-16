@@ -1,0 +1,83 @@
+{
+  "manifest_version": 3,
+  "name": "Drafty: AI replies and page assistant",
+  "short_name": "Drafty",
+  "version": "3.2.0",
+  "description": "Draft replies to chats, emails and comments, catch up, analyze, translate and summarize any discussion. Uses your Claude, ChatGPT, Gemini or Grok account. Never sends anything.",
+  "permissions": [
+    "storage",
+    "declarativeNetRequest",
+    "scripting",
+    "activeTab",
+    "contextMenus",
+    "cookies",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "https://claude.ai/*",
+    "https://chatgpt.com/*",
+    "https://gemini.google.com/*",
+    "https://grok.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "exclude_matches": [
+        "https://claude.ai/*"
+      ],
+      "js": [
+        "content/context.js",
+        "content/adapters.js",
+        "content/page.js",
+        "content/prompts.js",
+        "content/ui.js",
+        "content/content.js",
+        "content/assistant.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://grok.com/*"
+      ],
+      "js": [
+        "content/driver.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "commands": {
+    "draft-reply": {
+      "suggested_key": {
+        "default": "Alt+R"
+      },
+      "description": "Draft a reply for the focused chat, email or comment box"
+    },
+    "open-assistant": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "Open the page assistant"
+    }
+  }
+}

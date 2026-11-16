@@ -1,0 +1,7 @@
+<resources>
+    <color name="panel_bg">#1F2124</color>
+    <color name="panel_bg2">#2A2D31</color>
+    <color name="panel_fg">#ECECEE</color>
+    <color name="panel_muted">#9A9CA3</color>
+    <color name="panel_line">#34373C</color>
+</resources>
