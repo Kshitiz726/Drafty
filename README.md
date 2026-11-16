@@ -68,10 +68,11 @@
 **Tools**
 
 <p align="center">
-  <img src="docs/screenshots/tools-menu.png" width="200" alt="Long-press menu">&nbsp;
+  <img src="docs/screenshots/tools-menu.png" width="200" alt="Long-press menu in a chat">&nbsp;
+  <img src="docs/screenshots/tools-post-menu.jpg" width="200" alt="Long-press menu on an Instagram post">&nbsp;
   <img src="docs/screenshots/tldr-instagram.jpg" width="200" alt="TL;DR of an Instagram reel">
 </p>
-<p align="center"><sub>Long-press menu &nbsp;·&nbsp; TL;DR of an Instagram reel and its comments</sub></p>
+<p align="center"><sub>Chat tools &nbsp;·&nbsp; Post tools on Instagram &nbsp;·&nbsp; TL;DR of a reel and its comments</sub></p>
 
 **Settings**
 
